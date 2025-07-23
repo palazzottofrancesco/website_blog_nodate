@@ -4,7 +4,7 @@
     'version': '18.0.1.0.0',
     'summary': 'Rimuove la data di pubblicazione dai post del blog',
     'category': 'Website',
-    'author': 'Tuonome / Tua Azienda',
+    'author': 'Francesco Palazzotto',
     'depends': [
         'website_blog',
     ],

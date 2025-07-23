@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!-- Ereditiamo il template che mostra la data -->
+  <template id="hide_blog_post_date" inherit_id="website_blog.post_info" priority="20">
+    <!-- Selezioniamo e rimuoviamo il time che mostra post_date -->
+    <xpath expr="//time[@t-field='blog_post.post_date']" position="replace"/>
+  </template>
+</odoo>
+
